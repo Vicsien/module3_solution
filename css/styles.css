@@ -1,0 +1,66 @@
+body {
+    background-color: #f8f9fa;
+    }
+      /* Custom CSS for dropdown menu background color */
+      .dropdown-menu {
+        background-color: #f8f9fa; /* Light gray background color */
+        width: 100%;
+      }
+
+      .center-menu {
+        text-align: center;
+      }
+
+      .center-menu li{
+        border-bottom: 2px solid rgb(197, 195, 195);
+      }
+
+      .container {
+        padding-top: 60px;
+        height: 100%;  
+      }
+
+    @media screen and (min-width: 700px ) {
+    .center-menu {
+        display: none; 
+      }
+    }
+
+    .h1{
+        padding: 5px;
+    }
+      .card {
+        border: 5px;
+        box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+        background-color: #b2beb5;
+      }
+
+      .h3{
+        text-align: center;
+        font-size: bold;
+        font-weight: 600;
+        }
+
+      .h3:hover{
+        color: #0f0bee;
+      }
+
+      .nav-center{
+        width: 100%;
+        margin-left: 45%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        }
+
+      p {
+        text-align: justify;
+      }
+
+    
